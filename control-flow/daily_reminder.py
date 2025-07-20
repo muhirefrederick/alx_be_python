@@ -1,9 +1,7 @@
-# daily_reminder.py
-
 # Prompt user for task details
-task = input("Enter your task for today: ")
-priority = input("Enter the task's priority (high, medium, low): ").lower()
-time_bound = input("Is the task time-bound? (yes or no): ").lower()
+task = input("Enter your task: ")
+priority = input("Priority (high/medium/low): ").lower()
+time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 # Create the base reminder
 reminder = ""
