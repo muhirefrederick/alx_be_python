@@ -23,5 +23,5 @@ else:
 
 # Final output using a loop to emphasize the reminder (for example, repeat it 1 time only)
 for _ in range(1):
-    print("Note:", reminder)
+    print("Reminder:", reminder)
 # --- IGNORE ---
