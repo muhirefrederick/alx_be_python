@@ -1,6 +1,6 @@
 # book_class.py
 
-class book:
+class Book:
     def __init__(self, title, author, year):
         """Constructor to initialize a Book instance."""
         self.title = title
@@ -17,4 +17,5 @@ class book:
 
     def __repr__(self):
         """Official string representation that can recreate the object."""
-        return f"book('{self.title}', '{self.author}', {self.year})"
+        return f"Book('{self.title}', '{self.author}', {self.year})"
+#end
